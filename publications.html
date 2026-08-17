@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Selected verified publications from Dr. Md Rubel Ahmed and Design, Automation and Compilation (DAC) Lab at Louisiana Tech University."
+    />
+    <meta
+      property="og:title"
+      content="Publications | Design, Automation and Compilation (DAC) Lab"
+    />
+    <meta
+      property="og:description"
+      content="Selected research publications in electronic design automation, computer architecture, and AI."
+    />
+    <meta property="og:type" content="website" />
+    <title>Publications | Design, Automation and Compilation (DAC) Lab</title>
+    <link rel="icon" href="assets/icons/DACLabIcon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="css/styles.css?v=20260816n" />
+    <script src="data/publications.js?v=20260816g" defer></script>
+    <script src="js/main.js?v=20260816g" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a
+          class="brand"
+          href="index.html"
+          aria-label="Design, Automation and Compilation (DAC) Lab home"
+          ><span class="brand-name">DAC Lab</span
+          ><span class="brand-place">Louisiana Tech University</span></a
+        ><button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-navigation"
+          aria-label="Open navigation"
+        >
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="site-nav" id="site-navigation" aria-label="Main navigation">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="research.html">Research</a></li>
+            <li>
+              <a href="publications.html" aria-current="page">Publications</a>
+            </li>
+            <li><a href="people.html">People</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main id="main-content">
+      <h1 class="visually-hidden">Publications</h1>
+      <section class="section section--white">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <span class="eyebrow">2026 updates</span>
+              <h2>Accepted papers</h2>
+            </div>
+            <p>Acceptance announcements with the currently available paper and conference information.</p>
+          </div>
+          <div class="acceptance-list" data-acceptances></div>
+        </div>
+      </section>
+      <!-- Retained for future publication updates; hidden for the current site version. -->
+      <section class="section section--white publication-section" hidden>
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <span class="eyebrow">Selected work</span>
+              <h2>Peer-reviewed publications</h2>
+            </div>
+            <p>
+              This initial list contains only entries whose metadata was
+              verified against public scholarly sources.
+            </p>
+          </div>
+          <div class="filter-bar" aria-label="Filter publications">
+            <button
+              class="filter-button"
+              type="button"
+              data-filter="all"
+              aria-pressed="true"
+            >
+              All</button
+            ><button
+              class="filter-button"
+              type="button"
+              data-filter="journal"
+              aria-pressed="false"
+            >
+              Journal</button
+            ><button
+              class="filter-button"
+              type="button"
+              data-filter="conference"
+              aria-pressed="false"
+            >
+              Conference</button
+            ><button
+              class="filter-button"
+              type="button"
+              data-filter="workshop"
+              aria-pressed="false"
+            >
+              Workshop
+            </button>
+          </div>
+          <div data-publications></div>
+          <noscript
+            ><p>
+              JavaScript is required to display the publication list. Visit the
+              <a href="https://rubelahmed57.github.io/">professor website</a>
+              instead.
+            </p></noscript
+          >
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-meta">
+          <span
+            >© <span data-current-year>2026</span> Design, Automation and
+            Compilation (DAC) Lab, Louisiana Tech University</span
+          ><span>Lab pages maintained by Md Mahfuzul Haque Gazi.</span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
