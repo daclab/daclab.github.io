@@ -2,6 +2,11 @@
 // Keep the newest entries at the beginning of this array.
 window.labNews = [
   {
+    date: 'Aug 17, 2026',
+    machineDate: '2026-08-17',
+    text: 'Prof. Md Rubel Ahmed receives a $600,000 NSF award to advance AI hardware development. Congratulations, Prof. Ahmed!'
+  },
+  {
     date: 'Aug 14, 2026',
     machineDate: '2026-08-14',
     status: 'Paper accepted',

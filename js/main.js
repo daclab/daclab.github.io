@@ -49,7 +49,8 @@
       date.textContent = item.date;
       const content = document.createElement('div');
       const announcement = document.createElement('p');
-      announcement.textContent = `${item.status} at ${item.venue}.${item.firstAuthor ? ` Congratulations, ${item.firstAuthor}!` : ''}`;
+      const newsText = item.text || `${item.status} at ${item.venue}.${item.firstAuthor ? ` Congratulations, ${item.firstAuthor}!` : ''}`;
+      announcement.textContent = item.text ? `🏆 ${newsText} 🎉` : `${newsText} 🎉`;
       content.append(announcement);
       article.append(date, content);
       newsContainer.append(article);
