@@ -18,7 +18,7 @@
     <meta property="og:type" content="website" />
     <title>Research | Design, Automation and Compilation (DAC) Lab</title>
     <link rel="icon" href="assets/icons/DACLabIcon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="css/styles.css?v=20260819b" />
+    <link rel="stylesheet" href="css/styles.css?v=20261001g" />
     <script src="js/main.js?v=20260816g" defer></script>
   </head>
   <body>
@@ -58,51 +58,65 @@
       <section class="section section--white">
         <div class="container topic-list">
           <article class="topic" id="eda-soc">
-            <div class="topic-mark" aria-hidden="true">EDA.01</div>
             <div class="topic-copy">
-              <h2>Electronic Design Automation &amp; SoC</h2>
+              <h2>OASIS: Open Infrastructure for Automated Synthesis of AI Models to Hardware</h2>
+              <p><strong>NSF-Funded Research Project</strong></p>
               <p>
-                We develop <strong>EDA methodologies and SoC design
-                techniques</strong> focused on hardware optimization, efficient
-                design automation, and secure computing architectures.
+                OASIS is an open, end-to-end cyberinfrastructure for automatically
+                translating modern AI models into efficient FPGA and ASIC hardware.
+                The project builds on MLIR and CIRCT to preserve high-level model
+                and optimization semantics throughout the compilation flow, from
+                machine-learning frameworks to hardware-level representations and
+                synthesizable RTL.
+              </p>
+              <p>
+                <strong>Development &amp; Maintenance:</strong> Md Mahfuzul Haque
+                Gazi leads the development and maintenance of the OASIS software
+                pipeline at DAC Lab.
               </p>
               <div class="topic-tags">
-                <span class="tag">EDA</span
-                ><span class="tag">SoC design</span
-                ><span class="tag">Hardware optimization</span>
+                <span class="tag">AI models to hardware</span
+                ><span class="tag">FPGA &amp; ASIC</span
+                ><span class="tag">MLIR &amp; CIRCT</span>
               </div>
             </div>
+            <img class="topic-image topic-image--oasis" src="assets/images/research/oasis3.png" alt="OASIS compiler flow from machine-learning frameworks through tensor IR, MLIR optimization, hardware-aware lowering, CIRCT, and RTL to FPGA and ASIC hardware, with verification and optimization feedback" width="1448" height="1086" />
           </article>
           <article class="topic" id="robotics-security">
-            <div class="topic-mark" aria-hidden="true">ROB.02</div>
             <div class="topic-copy">
-              <h2>Robotics, Optimization &amp; Security</h2>
+              <h2>Resilient Real-Time Cyber-Physical Systems</h2>
               <p>
-                We explore <strong>ROS-based robotic systems</strong>, with
-                emphasis on system optimization, intelligent automation, and
-                security for reliable and resilient autonomous platforms.
+                We develop <strong>real-time and secure edge computing systems
+                for robotics and smart grids</strong>. Our work combines systems
+                research, hardware and software co-design, and cybersecurity to
+                maintain reliable operation under strict timing constraints,
+                faults, and cyber attacks.
+              </p>
+              <p>
+                In distributed robotic systems, we study how task timing,
+                communication, and security affect responsiveness and
+                coordination. In modern power infrastructure, we investigate
+                real-time monitoring, edge computing, smart-grid analytics, and
+                cyber-attack detection. By processing data close to the physical
+                system, we aim to improve response times and strengthen the
+                resilience of autonomous platforms and energy infrastructure.
+              </p>
+              <p>
+                <strong>Researchers:</strong> Md Nafis Tahmid Akhand (robotics
+                and real-time security) and Md Kibria Saroare (smart grids,
+                edge computing, and cybersecurity).
               </p>
               <div class="topic-tags">
-                <span class="tag">ROS</span
-                ><span class="tag">Autonomous systems</span
-                ><span class="tag">Security</span>
-              </div>
-            </div>
-          </article>
-          <article class="topic" id="power-cybersecurity">
-            <div class="topic-mark" aria-hidden="true">PWR.03</div>
-            <div class="topic-copy">
-              <h2>Data Centers, Power Grids &amp; Cybersecurity</h2>
-              <p>
-                We study <strong>AI data-center power systems and modern power
-                grids</strong>, focusing on modeling, monitoring, optimization,
-                control, and cybersecurity for resilient energy infrastructure.
-              </p>
-              <div class="topic-tags">
-                <span class="tag">AI data centers</span
-                ><span class="tag">Power grids</span
+                <span class="tag">Real-Time Systems</span
+                ><span class="tag">Edge Computing</span
+                ><span class="tag">Robotics</span
+                ><span class="tag">Smart Grids</span
                 ><span class="tag">Cybersecurity</span>
               </div>
+            </div>
+            <div class="topic-figures" id="power-cybersecurity">
+              <img class="topic-image" src="assets/images/research/robotics.svg" alt="Illustration of a robot with connected sensors and a security shield" width="640" height="440" loading="lazy" />
+              <img class="topic-image" src="assets/images/research/power-grid.svg" alt="Illustration of data-center servers connected to a power grid" width="640" height="440" loading="lazy" />
             </div>
           </article>
         </div>
