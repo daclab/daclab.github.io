@@ -13,14 +13,7 @@ window.labAcceptances = [
     machineDate: '2026-07-23',
     venue: 'NAPS 2026',
     title: 'FedGuard-DC: Privacy-Preserving Federated Load Forecasting and Cyber-Attack Detection for Data-Center Loads in Transmission Systems',
-    authors: 'Md Kibria Saroare; Md Rubel Ahmed*'
-  },
-  {
-    date: 'Jul 9, 2026',
-    machineDate: '2026-07-09',
-    venue: 'IEEE SmartGridComm 2026',
-    title: 'DC-CLM: Extending the WECC Composite Load Model for AI Data Center Dynamics',
-    authors: 'Md Kibria Saroare; Md Rubel Ahmed*'
+    authors: 'Md Kibria Saroare; Md Rubel Ahmed'
   },
   {
     date: 'May 4, 2026',
