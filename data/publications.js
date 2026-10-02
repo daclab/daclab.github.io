@@ -13,35 +13,42 @@ window.labAcceptances = [
     machineDate: '2026-07-23',
     venue: 'NAPS 2026',
     title: 'FedGuard-DC: Privacy-Preserving Federated Load Forecasting and Cyber-Attack Detection for Data-Center Loads in Transmission Systems',
-    authors: 'Md Kibria Saroare; Md Rubel Ahmed'
+    authors: 'Md Kibria Saroare; Md Rubel Ahmed',
+    links: [{ label: 'arXiv preprint', url: 'https://arxiv.org/abs/2608.19155' }]
   },
   {
     date: 'Jul 9, 2026',
     machineDate: '2026-07-09',
     venue: 'IEEE SmartGridComm 2026',
     title: 'DC-CLM: Extending the WECC Composite Load Model for AI Data Center Dynamics',
-    authors: 'MK Saroare; MR Ahmed; A Hussain'
+    authors: 'MK Saroare; MR Ahmed; A Hussain',
+    links: [{ label: 'arXiv preprint', url: 'https://arxiv.org/abs/2609.22093' }]
   },
   {
     date: 'Mar 22, 2026',
     machineDate: '2026-03-22',
     venue: 'SATC 2026',
     title: 'SecureHLSMem: Synthesizable Memory Safety for High-Level Synthesis of Accelerators',
-    authors: 'Md Mahfuzul Haque Gazi; M Shifat Hossain; Arif Hussain; Sumit Kumar Jha; Md Rubel Ahmed'
+    authors: 'Md Mahfuzul Haque Gazi; M Shifat Hossain; Arif Hussain; Sumit Kumar Jha; Md Rubel Ahmed',
+    links: [{ label: 'IEEE Xplore', url: 'https://ieeexplore.ieee.org/document/11542298' }]
   },
   {
     date: 'Mar 6, 2026',
     machineDate: '2026-03-06',
     venue: 'RAW 2026',
     title: 'From Algorithm to RTL: A Comparative Study of Compiler-Driven and LLM-Driven FPGA Design Flows',
-    authors: 'Md Mahfuzul Haque Gazi; Rickard Ewetz; Hao Zheng; Md Rubel Ahmed'
+    authors: 'Md Mahfuzul Haque Gazi; Rickard Ewetz; Hao Zheng; Md Rubel Ahmed',
+    links: [{ label: 'IEEE Xplore', url: 'https://ieeexplore.ieee.org/abstract/document/11651890' }]
   },
   {
     date: 'Feb 8, 2026',
     machineDate: '2026-02-08',
     venue: 'IEEE TPEC 2026',
     title: 'GridStream: A Hardware-Efficient Framework for Bandwidth-Constrained Point-on-Wave Disturbance Monitoring',
-    authors: 'Md Kibria Saroare; Md Abul Hasnat; Md Rubel Ahmed'
+    authors: 'Md Kibria Saroare; Md Abul Hasnat; Md Rubel Ahmed',
+    links: [
+      { label: 'IEEE Xplore', url: 'https://ieeexplore.ieee.org/abstract/document/11513170' }
+    ]
   }
 ];
 
