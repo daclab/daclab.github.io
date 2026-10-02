@@ -16,11 +16,11 @@ window.labAcceptances = [
     authors: 'Md Kibria Saroare; Md Rubel Ahmed'
   },
   {
-    date: 'May 4, 2026',
-    machineDate: '2026-05-04',
-    venue: '2026 LSU Symposium on Control, Learning, and Intelligent Systems',
-    title: 'Modal Supervisory Coordination of Power Source Transitions in Data Centers via Lingua Franca and Simulink Co-Simulation',
-    authors: 'Md Kibria Saroare; Md Rubel Ahmed'
+    date: 'Jul 9, 2026',
+    machineDate: '2026-07-09',
+    venue: 'IEEE SmartGridComm 2026',
+    title: 'DC-CLM: Extending the WECC Composite Load Model for AI Data Center Dynamics',
+    authors: 'MK Saroare; MR Ahmed; A Hussain'
   },
   {
     date: 'Mar 22, 2026',
