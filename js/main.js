@@ -68,6 +68,20 @@
 
   const publicationContainer = document.querySelector('[data-publications]');
 
+  function setPublicationTitle(heading, item) {
+    const link = item.links && item.links[0];
+    if (link) {
+      const anchor = document.createElement('a');
+      anchor.href = link.url;
+      anchor.textContent = item.title;
+      anchor.target = '_blank';
+      anchor.rel = 'noopener noreferrer';
+      heading.append(anchor);
+    } else {
+      heading.textContent = item.title;
+    }
+  }
+
   const acceptanceContainer = document.querySelector('[data-acceptances]');
   if (acceptanceContainer && window.labAcceptances) {
     window.labAcceptances.forEach((item) => {
@@ -80,7 +94,7 @@
       const content = document.createElement('div');
       if (item.title) {
         const title = document.createElement('h3');
-        title.textContent = item.title;
+        setPublicationTitle(title, item);
         content.append(title);
       }
       const details = document.createElement('p');
@@ -112,7 +126,7 @@
         article.className = 'publication';
         article.dataset.type = item.type;
         const title = document.createElement('h3');
-        title.textContent = item.title;
+        setPublicationTitle(title, item);
         const authors = document.createElement('p');
         authors.className = 'publication-meta';
         authors.textContent = item.authors;
@@ -120,19 +134,6 @@
         venue.className = 'publication-meta';
         venue.textContent = item.venue;
         article.append(title, authors, venue);
-        if (item.links && item.links.length) {
-          const links = document.createElement('div');
-          links.className = 'publication-links';
-          item.links.forEach((link) => {
-            const anchor = document.createElement('a');
-            anchor.href = link.url;
-            anchor.textContent = link.label;
-            anchor.target = '_blank';
-            anchor.rel = 'noopener noreferrer';
-            links.append(anchor);
-          });
-          article.append(links);
-        }
         list.append(article);
       });
       publicationContainer.append(heading, list);
