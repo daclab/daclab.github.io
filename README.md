@@ -58,6 +58,7 @@ Place approved, web-optimized images in:
 - `assets/images/people/` for member photos
 - `assets/images/research/` for diagrams
 - `assets/images/news/` for announcement imagery
+- `assets/images/lab-moments/` for celebration and event photos, grouped in descriptive event folders
 
 Use lowercase descriptive filenames, preferably WebP or optimized JPEG. Add meaningful `alt` text for informative images and `alt=""` for decorative images. When an approved PI photo is available, replace the `.portrait-placeholder` element in `people.html` with an `<img>` pointing to `assets/images/professor/rubel-ahmed.jpg`.
 
@@ -85,6 +86,7 @@ research.html          Research themes
 publications.html      Filterable verified publication list
 people.html            PI and member structure
 outreach.html          Mentoring and outreach structure
+lab-moments.html       Achievement and celebration photo gallery
 contact.html           Contact and prospective-student guidance
 css/styles.css         Centralized visual system and responsive rules
 js/main.js             Mobile navigation and small content interactions
@@ -96,3 +98,7 @@ assets/                Approved images and icons
 ## Content policy
 
 Accuracy is more important than completeness. Verify member names, funding, publications, awards, projects, and openings before adding them. Use a clear “updates coming soon” state when information is unavailable.
+
+### Add a Lab Moment
+
+Place photos in `assets/images/lab-moments/<year-event-name>/` and add an article to `lab-moments.html`, newest first. Include a verified title, date, caption, meaningful alt text, image dimensions, and a source link where available. Use descriptive lowercase filenames and optimized JPEG or WebP copies. Keep full-resolution originals in the shared lab drive.

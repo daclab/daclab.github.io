@@ -1048,3 +1048,9 @@ p {
     animation-iteration-count: 1 !important;
   }
 }
+
+/* Lab Moments: preserve the full award photograph on every screen. */
+.lab-moment { max-width: 960px; }
+.lab-moment-photo { margin: 1.75rem 0 1rem; }
+.lab-moment-photo img { display: block; width: 100%; height: auto; border: 1px solid var(--color-border); }
+.lab-moment-photo figcaption { margin-top: .65rem; color: var(--color-muted); font-size: .92rem; }

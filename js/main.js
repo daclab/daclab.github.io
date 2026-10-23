@@ -50,7 +50,7 @@
       const content = document.createElement('div');
       const announcement = document.createElement('p');
       const newsText = item.text || `${item.status} at ${item.venue}.${item.firstAuthor ? ` Congratulations, ${item.firstAuthor}!` : ''}`;
-      announcement.textContent = item.text ? `🏆 ${newsText} 🎉` : `${newsText} 🎉`;
+      announcement.textContent = `${item.text && item.leadingIcon !== false ? '\u{1F3C6} ' : ''}${newsText} \u{1F389}`;
       content.append(announcement);
       article.append(date, content);
       newsContainer.append(article);
